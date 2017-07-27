@@ -1,0 +1,12 @@
+server:
+    port: 8081
+app:
+    mean: 500.0f
+    variance: 100.0f
+
+endpoints:
+          jmx:
+              enabled: true
+management:
+         security:
+                enabled: false
